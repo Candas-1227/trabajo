@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sobre nosotros</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="./img/panaderia.png" alt="panaderia" width="100vw">
+            <nav class="nav">
+                <ol>
+                    <li><a href="index.html" class="link">inicio</a></li>
+                    <li><a href="#" class="link">quienes somos</a></li>
+                    <li><a href="pagina2.html" class="link">ayuda</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="caja">
+                <h1>Delicious bread</h1>
+            </div>
+        </div>
+    </section>
+    <section class="hero-1 cajota">
+        <div class="container">
+            <div class="texto">
+                <p>
+                    Somos una panaderia que se espiciliza en sar diversos tipos de panes llevamos 5 años repartiendo felicidas a varias
+                    famalias es por eso que queremo que conocas nuestro trabajo,hemos organizado un evento en el que invitamos a miles de perosnas
+                    queremos que seas gran pate de esta  familia ayúdanos a crecer invita a tus amigos o familiares para que ellos también compartan
+                    la experiencia contigo. <br><br>
+
+                    <img src="./img/panaderia-2.png" alt="panadero" width="300vw" class="img"> <br>
+
+                    Qué esperas para ser grande de esta experiencia has tu reserva y se parte de este gran cambio no olvides que puedes hacer tu reserva
+                    en nuestra página oficial o también puedes contactarnos para más información: 3134930149 te esperamos muy pronto no dejes pasar esta 
+                    oportunidad, también debemos recordar que debes utilizar los implementos de bioseguridad para evitar que contraigas el virus tu salud
+                    es de vital importante para nosotros.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(".img").click(function(){
+            $(".img").animate({
+                width:"150vw"
+            },1000)
+        })
+       /*  $(".img").click(function(){
+            $(".hero-1").empty({
+            },1000)
+        }) */
+    </script>
+</html>
